@@ -5,7 +5,7 @@ The project is dependent on two project **File chooser** and **google-play-servi
 Instructions to build:
 
 1. Clone the repository of **LocDoc** project:
-    `git clone https://bitbucket.org/mobilecloudlab/madp_fall2013_researcherjournalapp.git`
+    `git clone https://github.com/stanbellcom/locdoc.git`
 
 2. Import the project into your workspace in Eclipse:
     1. File
