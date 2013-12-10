@@ -68,7 +68,7 @@ Google Maps API Key
 ----------------------
 
 Each machine has its on SHA1 fingerprint, which is used by Google to allow the access to Google Maps API.
-As a consequence to that fact, please send us (**b25938@ut.ee** or **rrenja@ut.ee**) your SHA1 finger print, we will accept you and then the application can be used to its full extend.
+As a consequence to that fact, please send us (**b25938 [AT] ut [DOT] ee** or **rrenja [AT] ut [DOT] ee**) your SHA1 finger print, we will accept you and then the application can be used to its full extend.
 Instructions for gettig your SHA1 fingerprint:
 
 1. Open **Eclipse preferences**
