@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LocDoc</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="btn_login">Login with Dropbox</string>
+    <string name="btn_logout">Log out</string>
+    <string name="lbl_no_internet">No internet connection available! Please connect your device and recheck the connection</string>
+    <string name="btn_check_connection">Recheck connection</string>
+    <string name="lbl_basedir">All your files</string>
+    <string name="btn_filebrowser_back">back</string>
+    <string name="title_map">Map view</string>
+    <string name="title_filebrowser">File Browser</string>
+    <string name="title_fileadd">Upload File</string>
+    <string name="lbl_current_location">Your current location:</string>
+    <string name="lbl_current_location_unknown">unknown</string>
+    <string name="btn_refresh">Refresh</string>
+    <string name="lbl_or">OR</string>
+    <string name="btn_upload_file_current_loc">Upload file to current location</string>
+    <string name="btn_upload_file_pick_loc">Upload file to custom location</string>
+    
+    
+
+</resources>

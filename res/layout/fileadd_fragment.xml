@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FileBrowserActivity" >
+
+    <TextView
+        android:id="@+id/lbl_current_location_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/lbl_current_location"
+        android:textSize="@dimen/default_title_size" />
+
+    <TextView
+        android:id="@+id/lbl_current_location_coordinates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lbl_current_location_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/lbl_current_location_unknown"
+        android:textSize="@dimen/default_text_size" />
+
+    <TextView
+        android:id="@+id/lbl_current_location_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lbl_current_location_coordinates"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/lbl_current_location_unknown"
+        android:textSize="@dimen/default_text_size" />
+
+    <Button
+        android:id="@+id/btn_current_locaiton_refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lbl_current_location_name"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/icon_refresh"
+        android:drawablePadding="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/btn_refresh" />
+
+    <Button
+        android:id="@+id/btn_add_file_current_loc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_current_locaiton_refresh"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:drawableLeft="@drawable/icon_current_location"
+        android:drawablePadding="10dp"
+        android:gravity="center"
+        android:text="@string/btn_upload_file_current_loc" />
+
+    <TextView
+        android:id="@+id/lbl_or"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_add_file_current_loc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/lbl_or"
+        android:textSize="@dimen/default_text_size" />
+
+    <Button
+        android:id="@+id/btn_add_file_pick_loc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lbl_or"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:drawableLeft="@drawable/icon_custom_location"
+        android:drawablePadding="10dp"
+        android:gravity="center"
+        android:text="@string/btn_upload_file_pick_loc" />
+
+</RelativeLayout>
